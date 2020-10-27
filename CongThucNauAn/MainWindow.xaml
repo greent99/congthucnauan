@@ -5,8 +5,113 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CongThucNauAn"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="730" Width="1250"
+        WindowStartupLocation="CenterScreen">
+    <Canvas>
+        <StackPanel Height="700" Width="250" Background="Black">
+            <StackPanel Height="100"></StackPanel>
+            <StackPanel Orientation="Horizontal" Height="60">
+                <Button Background="Black"  FontSize="18"  Width="250" BorderThickness="0">
+                    <StackPanel Width="250" Height="50" Orientation="Horizontal">
+                        <StackPanel Width="70">
+                            <Image Width="32" Height="32" Source="Images/Icon/plus-32.png"></Image>
+                        </StackPanel>
+                        <Label Width="10"></Label>
+                        <Label FontSize="16" Content="Add Recipe" Foreground="WhiteSmoke" Width="170"></Label>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="60">
+                <Button Background="Black"  FontSize="18"  Width="250" BorderThickness="0">
+                    <StackPanel Width="250" Height="50" Orientation="Horizontal">
+                        <StackPanel Width="70">
+                            <Image Width="32" Height="32" Source="Images/Icon/home-32.png"></Image>
+                        </StackPanel>
+                        <Label Width="10"></Label>
+                        <Label FontSize="16" Content="Home" Foreground="WhiteSmoke" Width="170"></Label>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="60">
+                <Button Background="Black"  FontSize="18"  Width="250" BorderThickness="0">
+                    <StackPanel Width="250" Height="50" Orientation="Horizontal">
+                        <StackPanel Width="70">
+                            <Image Width="32" Height="32" Source="Images/Icon/heart-32.png"></Image>
+                        </StackPanel>
+                        <Label Width="10"></Label>
+                        <Label FontSize="16" Content="Collection" Foreground="WhiteSmoke" Width="170"></Label>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="60">
+                <Button Background="Black"  FontSize="18"  Width="250" BorderThickness="0">
+                    <StackPanel Width="250" Height="50" Orientation="Horizontal">
+                        <StackPanel Width="70">
+                            <Image Width="32" Height="32" Source="Images/Icon/list-32.png"></Image>
+                        </StackPanel>
+                        <Label Width="10"></Label>
+                        <Label FontSize="16" Content="Shopping List" Foreground="WhiteSmoke" Width="170"></Label>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="60">
+                <Button Background="Black"  FontSize="18"  Width="250" BorderThickness="0">
+                    <StackPanel Width="250" Height="50" Orientation="Horizontal">
+                        <StackPanel Width="70">
+                            <Image Width="32" Height="32" Source="Images/Icon/help-32.png"></Image>
+                        </StackPanel>
+                        <Label Width="10"></Label>
+                        <Label FontSize="16" Content="Help" Foreground="WhiteSmoke" Width="170"></Label>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="60">
+                <Button Background="Black"  FontSize="18"  Width="250" BorderThickness="0">
+                    <StackPanel Width="250" Height="50" Orientation="Horizontal">
+                        <StackPanel Width="70">
+                            <Image Width="32" Height="32" Source="Images/Icon/settings-32.png"></Image>
+                        </StackPanel>
+                        <Label Width="10"></Label>
+                        <Label FontSize="16" Content="Setting" Foreground="WhiteSmoke" Width="170"></Label>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="60">
+                <Button Background="Black"  FontSize="18"  Width="250" BorderThickness="0">
+                    <StackPanel Width="250" Height="50" Orientation="Horizontal">
+                        <StackPanel Width="70">
+                            <Image Width="32" Height="32" Source="Images/Icon/about-32.png"></Image>
+                        </StackPanel>
+                        <Label Width="10"></Label>
+                        <Label FontSize="16" Content="About" Foreground="WhiteSmoke" Width="170"></Label>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Canvas.Left="250" Canvas.Right="1250" Width="990" Height="700">
+            <StackPanel Margin="0 0 10 0" HorizontalAlignment="Right" Orientation="Horizontal" Height="40">
+                <Button Margin="0 0 10 0" Width="32" Height="32" Background="White" BorderThickness="0">
+                    <Image Source="/Images/Icon/notification-24.png" Width="24" Height="24"></Image>
+                </Button>
+                <Button Width="32" Height="32" Background="White" BorderThickness="0">
+                    <Image Source="/Images/Icon/logout-24.png" Width="24" Height="24"></Image>
+                </Button>
+            </StackPanel>
+            <StackPanel Margin="0 20 0 0">
+                <StackPanel Height="180" Margin="0 0 0 10">
+                    <Button>Test</Button>
+                </StackPanel>
+                <StackPanel Height="180" Margin="0 0 0 10">
+                    <Button>Test</Button>
+                </StackPanel>
+                <StackPanel Height="180" Margin="0 0 0 10">
+                    <Button>Test</Button>
+                </StackPanel>
+                <StackPanel></StackPanel>
+            </StackPanel>
+            <StackPanel Height="50">
+                <Button Height="50">Pagination</Button>
+            </StackPanel>
+        </StackPanel>
+    </Canvas>
 </Window>
