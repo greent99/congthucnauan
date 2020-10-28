@@ -13,3 +13,18 @@ D:\HocTap\Nam 4\Lap trinh Windows\Project 1\CongThucNauAn\CongThucNauAn\obj\Debu
 D:\HocTap\Nam 4\Lap trinh Windows\Project 1\CongThucNauAn\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.CoreCompileInputs.cache
 D:\HocTap\Nam 4\Lap trinh Windows\Project 1\CongThucNauAn\CongThucNauAn\obj\Debug\CongThucNauAn.exe
 D:\HocTap\Nam 4\Lap trinh Windows\Project 1\CongThucNauAn\CongThucNauAn\obj\Debug\CongThucNauAn.pdb
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\bin\Debug\CongThucNauAn.exe.config
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\bin\Debug\CongThucNauAn.exe
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\bin\Debug\CongThucNauAn.pdb
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csprojAssemblyReference.cache
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\MainWindow.g.cs
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\App.g.cs
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn_MarkupCompile.cache
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn_MarkupCompile.lref
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\MainWindow.baml
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.g.resources
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.Properties.Resources.resources
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.GenerateResource.cache
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.CoreCompileInputs.cache
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.exe
+D:\HocTap\git repos\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.pdb
