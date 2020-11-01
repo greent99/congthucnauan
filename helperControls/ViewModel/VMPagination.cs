@@ -9,7 +9,7 @@ using helperControls.Models;
 
 namespace helperControls.ViewModel
 {
-    class VMPagination : ChangeNotifierModel
+    public class VMPagination : ChangeNotifierModel
     {
         #region Property
 

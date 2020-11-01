@@ -25,10 +25,7 @@ namespace helperControls
         public uc_pagination()
         {
             InitializeComponent();
-            PaginationModel pmodel = new PaginationModel(100,12);
-            VMPagination vm = new VMPagination();
-            vm.seed(pmodel);
-            this.DataContext = vm;
+            
         }
     }
 }

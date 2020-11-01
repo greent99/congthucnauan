@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CongThucNauAn.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -25,6 +26,7 @@ namespace CongThucNauAn
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new VMMain();
         }
 
         BindingList<Recipe> _list = new BindingList<Recipe>();
@@ -33,9 +35,8 @@ namespace CongThucNauAn
             string filename = $"{root}File/recipe.json";
             var arr = RecipeDAO.getDataFromJson(filename);
             _list = RecipeDAO.GetAll(arr);
-            dataListView_1.ItemsSource = _list;
-            dataListView_2.ItemsSource = _list;
-            dataListView_3.ItemsSource = _list;
+           
         }
+
     }
 }

@@ -15,7 +15,7 @@ namespace CongThucNauAn
         {
             List<Recipe> result = null;
 
-            using (StreamReader r = new StreamReader("D:/HocTap/Nam 4/Lap trinh Windows/congthucnauan/CongThucNauAn/File/recipe.json"))
+            using (StreamReader r = new StreamReader("D:/HocTap/Nam 4/Lap trinh Windows/Project/1/congthucnauan/CongThucNauAn/File/recipe.json"))
             {
                 string json = r.ReadToEnd();
                 result = JsonConvert.DeserializeObject<List<Recipe>>(json);

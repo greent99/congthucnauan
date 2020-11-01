@@ -9,7 +9,7 @@ using Haley.Flipper.MVVM.Models;
 
 namespace helperControls.Models
 {
-    class PaginationModel : ChangeNotifierModel
+    public class PaginationModel : ChangeNotifierModel
     {
         private int _total_items;
         public int total_items
@@ -27,7 +27,14 @@ namespace helperControls.Models
         public int current_page
         {
             get { return _current_page; }
-            set { _current_page = value; onPropertyChanged(); }
+            set 
+            {
+                if(value < total_pages + 1 && value > 0)
+                {
+                    _current_page = value; 
+                    onPropertyChanged();
+                }
+            }
         }
         private int _total_pages;
         public int total_pages
@@ -39,6 +46,9 @@ namespace helperControls.Models
             total_items = totalItemsCount;
             items_per_page = pageItemsCount;
             total_pages = total_items / items_per_page;
+            int r = total_items % items_per_page;
+            if (r != 0)
+                total_pages++;
             current_page = 1;
         }
     }
