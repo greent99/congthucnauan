@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CongThucNauAn"
         mc:Ignorable="d"
         Title="MainWindow" Height="730" Width="1250"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Canvas>
         <StackPanel Height="700" Width="250" Background="Black">
             <StackPanel Height="100"></StackPanel>
@@ -99,19 +99,28 @@
             </StackPanel>
             <StackPanel Margin="0 20 0 0">
                 <StackPanel Height="180" Margin="0 0 0 10">
-                    <Button>Test</Button>
+                    <StackPanel Orientation="Horizontal">
+                        <ListView Name="dataListView" Height="180" Width="990" BorderThickness="0"  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"></StackPanel>
+                                </ItemsPanelTemplate>
+                            </ListView.ItemsPanel>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Button Height="160" Width="236">
+                                        <StackPanel Height="160" Width="236">
+                                            <Image Height="140" Width="236" Source="Images/Recipe/ga-ran.jpg"></Image>
+                                            <TextBlock Height="20" Text="{Binding title}"></TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackPanel>
                 </StackPanel>
-                <StackPanel Height="180" Margin="0 0 0 10">
-                    <Button>Test</Button>
-                </StackPanel>
-                <StackPanel Height="180" Margin="0 0 0 10">
-                    <Button>Test</Button>
-                </StackPanel>
-                <StackPanel></StackPanel>
-            </StackPanel>
-            <StackPanel Height="50">
-                <Button Height="50">Pagination</Button>
             </StackPanel>
         </StackPanel>
     </Canvas>
+        
 </Window>

@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icon/notification-24.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/recipe/ga-kfc.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/recipe/ga-ran.jpg")]
 
 

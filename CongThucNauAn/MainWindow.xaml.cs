@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,19 @@ namespace CongThucNauAn
     /// </summary>
     public partial class MainWindow : Window
     {
+        private string root = System.AppDomain.CurrentDomain.BaseDirectory;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        BindingList<Recipe> _list = new BindingList<Recipe>();
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            string filename = $"{root}File/recipe.json";
+            var arr = RecipeDAO.getDataFromJson(filename);
+            _list = RecipeDAO.GetAll(arr);
+            dataListView.ItemsSource = _list;
         }
     }
 }
