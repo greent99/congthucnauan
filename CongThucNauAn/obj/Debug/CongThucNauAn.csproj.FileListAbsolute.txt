@@ -13,3 +13,33 @@ D:\HocTap\Nam 4\Lap trinh Windows\Project 1\CongThucNauAn\CongThucNauAn\obj\Debu
 D:\HocTap\Nam 4\Lap trinh Windows\Project 1\CongThucNauAn\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.CoreCompileInputs.cache
 D:\HocTap\Nam 4\Lap trinh Windows\Project 1\CongThucNauAn\CongThucNauAn\obj\Debug\CongThucNauAn.exe
 D:\HocTap\Nam 4\Lap trinh Windows\Project 1\CongThucNauAn\CongThucNauAn\obj\Debug\CongThucNauAn.pdb
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\CongThucNauAn.exe.config
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\CongThucNauAn.exe
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\CongThucNauAn.pdb
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\helperControls.dll
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\Newtonsoft.Json.dll
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\System.ValueTuple.dll
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\System.Windows.Interactivity.dll
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\Haley.MVVM.dll
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\helperControls.pdb
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\Newtonsoft.Json.xml
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\System.ValueTuple.xml
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\bin\Debug\System.Windows.Interactivity.xml
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csprojAssemblyReference.cache
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\MainWindow.g.cs
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\App.g.cs
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn_MarkupCompile.cache
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn_MarkupCompile.lref
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\MainWindow.baml
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.g.resources
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.Properties.Resources.resources
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.GenerateResource.cache
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.CoreCompileInputs.cache
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.CopyComplete
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.exe
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.pdb

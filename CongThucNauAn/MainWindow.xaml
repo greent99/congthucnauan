@@ -4,9 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CongThucNauAn"
+        xmlns:hctrl="clr-namespace:helperControls;assembly=helperControls"
         mc:Ignorable="d"
         Title="MainWindow" Height="730" Width="1250"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Canvas>
         <StackPanel Height="700" Width="250" Background="Black">
             <StackPanel Height="100"></StackPanel>
@@ -97,21 +98,78 @@
                     <Image Source="/Images/Icon/logout-24.png" Width="24" Height="24"></Image>
                 </Button>
             </StackPanel>
-            <StackPanel Margin="0 20 0 0">
+            <StackPanel Margin="0 10 0 0">
                 <StackPanel Height="180" Margin="0 0 0 10">
-                    <Button>Test</Button>
+                    <StackPanel Orientation="Horizontal">
+                        <ListView Name="dataListView_1" Height="180" Width="990" BorderThickness="0"  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"></StackPanel>
+                                </ItemsPanelTemplate>
+                            </ListView.ItemsPanel>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Button Height="160" Width="236">
+                                        <StackPanel Height="160" Width="236">
+                                            <Image Height="140" Width="236" Source="{Binding image}"></Image>
+                                            <TextBlock Height="20" Text="{Binding title}"></TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackPanel>
                 </StackPanel>
-                <StackPanel Height="180" Margin="0 0 0 10">
-                    <Button>Test</Button>
-                </StackPanel>
-                <StackPanel Height="180" Margin="0 0 0 10">
-                    <Button>Test</Button>
-                </StackPanel>
-                <StackPanel></StackPanel>
             </StackPanel>
-            <StackPanel Height="50">
-                <Button Height="50">Pagination</Button>
+            <StackPanel Margin="0 10 0 0">
+                <StackPanel Height="180" Margin="0 0 0 10">
+                    <StackPanel Orientation="Horizontal">
+                        <ListView Name="dataListView_2" Height="180" Width="990" BorderThickness="0"  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"></StackPanel>
+                                </ItemsPanelTemplate>
+                            </ListView.ItemsPanel>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Button Height="160" Width="236">
+                                        <StackPanel Height="160" Width="236">
+                                            <Image Height="140" Width="236" Source="{Binding image}"></Image>
+                                            <TextBlock Height="20" Text="{Binding title}"></TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackPanel>
+                </StackPanel>
             </StackPanel>
+            <StackPanel Margin="0 10 0 0">
+                <StackPanel Height="180" Margin="0 0 0 10">
+                    <StackPanel Orientation="Horizontal">
+                        <ListView Name="dataListView_3" Height="180" Width="990" BorderThickness="0"  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"></StackPanel>
+                                </ItemsPanelTemplate>
+                            </ListView.ItemsPanel>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Button Height="160" Width="236">
+                                        <StackPanel Height="160" Width="236">
+                                            <Image Height="140" Width="236" Source="{Binding image}"></Image>
+                                            <TextBlock Height="20" Text="{Binding title}"></TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <hctrl:uc_pagination></hctrl:uc_pagination>
+
         </StackPanel>
     </Canvas>
+        
 </Window>
