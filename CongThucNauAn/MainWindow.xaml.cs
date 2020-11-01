@@ -33,7 +33,9 @@ namespace CongThucNauAn
             string filename = $"{root}File/recipe.json";
             var arr = RecipeDAO.getDataFromJson(filename);
             _list = RecipeDAO.GetAll(arr);
-            dataListView.ItemsSource = _list;
+            dataListView_1.ItemsSource = _list;
+            dataListView_2.ItemsSource = _list;
+            dataListView_3.ItemsSource = _list;
         }
     }
 }
