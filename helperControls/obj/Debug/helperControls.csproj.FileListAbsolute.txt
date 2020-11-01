@@ -25,3 +25,4 @@ D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\helperControls\obj\Debug\helperC
 D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\helperControls\obj\Debug\helperControls.csproj.CopyComplete
 D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\helperControls\obj\Debug\helperControls.dll
 D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\helperControls\obj\Debug\helperControls.pdb
+D:\HocTap\Nam 4\Lap trinh Windows\congthucnauan\helperControls\obj\Debug\helperControls.csprojAssemblyReference.cache
