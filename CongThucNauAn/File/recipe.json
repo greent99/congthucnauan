@@ -1,123 +1,107 @@
-[
+﻿[
 	{
-		"title": "test1",
-		"description": "test",
+		"title": "Gà rán",
+		"description": "gà",
 		"youtubeUrl": "google.com",
 		"image": "Images/Recipe/ga-ran.jpg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test2",
-		"description": "test",
+		"title": "Gà chiên nước mắm",
+		"description": "gà",
 		"youtubeUrl": "google.com",
 		"image": "Images/Recipe/ga-kfc.jpg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test3",
-		"description": "test",
+		"title": "Cà pháo",
+		"description": "cà pháo",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/ca-phao.jpeg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test4",
-		"description": "test",
+		"title": "Cua sốt trứng muối",
+		"description": "cua",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/cua-sot-trung-muoi.jpg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test5",
-		"description": "test",
+		"title": "Gà chiên nước mắm",
+		"description": "gà",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/ga-chien-nuoc-mam.jpg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test6",
-		"description": "test",
+		"title": "Gà hấp",
+		"description": "gà",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/ga-hap.jpg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test7",
-		"description": "test",
+		"title": "Hủ tiếu bò kho",
+		"description": "hủ tiếu",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/hu-tieu-bo-kho.jpg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test8",
-		"description": "test",
+		"title": "Mắm chưng thịt",
+		"description": "mắm",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/mam-chung-thit.jpg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test9",
-		"description": "test",
+		"title": "Phở tôm",
+		"description": "phở",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/pho-tom.jpeg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test10",
-		"description": "test",
+		"title": "Thịt kho trứng",
+		"description": "thịt kho",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/thit-kho-trung.jpg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test11",
-		"description": "test",
+		"title": "Lẩu kim chi",
+		"description": "gà",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/lau-kim-chi.png",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test12",
-		"description": "test",
+		"title": "Trứng sốt cà chua",
+		"description": "trứng",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/trung-sot-ca-chua.jpg",
 		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	},
 	{
-		"title": "test13",
-		"description": "test",
+		"title": "Bún hến",
+		"description": "bún",
 		"youtubeUrl": "google.com",
-		"image": "test.png",
+		"image": "Images/Recipe/bun-hen.jpg",
 		"steps": [],
-		"status": "false"
-	},
-	{
-		"title": "test12",
-		"description": "test",
-		"youtubeUrl": "google.com",
-		"image": "test.png",
-		"steps": [],
-		"status": "false"
-	},
-	{
-		"title": "test13",
-		"description": "test",
-		"youtubeUrl": "google.com",
-		"image": "test.png",
-		"steps": [],
-		"status": "false"
+		"isFavotite": "false"
 	}
 
 ]

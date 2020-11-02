@@ -150,6 +150,22 @@
       <Name>helperControls</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\Recipe\ca-phao.jpeg" />
+    <Resource Include="Images\Recipe\cua-sot-trung-muoi.jpg" />
+    <Resource Include="Images\Recipe\ga-chien-nuoc-mam.jpg" />
+    <Resource Include="Images\Recipe\ga-hap.jpg" />
+    <Resource Include="Images\Recipe\hu-tieu-bo-kho.jpg" />
+    <Resource Include="Images\Recipe\mam-chung-thit.jpg" />
+    <Resource Include="Images\Recipe\pho-tom.jpeg" />
+    <Resource Include="Images\Recipe\thit-kho-trung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Recipe\bun-hen.jpg" />
+    <Resource Include="Images\Recipe\lau-kim-chi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Recipe\trung-sot-ca-chua.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
