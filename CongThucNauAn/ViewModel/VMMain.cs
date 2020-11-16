@@ -114,7 +114,7 @@ namespace CongThucNauAn.ViewModel
 
         private void Pagination_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "current_page")
+            if (e.PropertyName == "current_page" || e.PropertyName == "total_pages")
             {
                 processPage(null);
             }
@@ -122,11 +122,9 @@ namespace CongThucNauAn.ViewModel
 
         public void Search_PropertyChanged()
         {
-            pagination = new VMPagination();
-
             PaginationModel model = new PaginationModel(full_list.Count(), 12);
             pagination.seed(model);
-
+            
             processPage(null);
         }
 

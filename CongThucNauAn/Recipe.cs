@@ -13,6 +13,7 @@ namespace CongThucNauAn
         public string youtubeUrl { get; set; }
         public string image { get; set; }
         public string[] steps { get; set; }
+        public Boolean isFavotite { get; set; }
 
     }
 }

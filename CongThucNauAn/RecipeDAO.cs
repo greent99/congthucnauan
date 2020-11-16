@@ -29,7 +29,7 @@ namespace CongThucNauAn
             List<Recipe> result = new List<Recipe>();
 
             List<Recipe> recipes = getDataFromJson("");
-            result = recipes.Where(x => x.image.Equals("")).ToList();
+            result = recipes.Where(x => x.title.Contains(keyword)).ToList();
 
             return result;
         }

@@ -45,7 +45,7 @@ namespace CongThucNauAn
         private void SearchBtn_Click(object sender, RoutedEventArgs e)
         {
             var keyword = KeywordInput.Text;
-            VmMain.full_list = RecipeDAO.filter("");
+            VmMain.full_list = RecipeDAO.filter(keyword);
             
         }
 
