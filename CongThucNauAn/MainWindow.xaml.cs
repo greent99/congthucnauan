@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace CongThucNauAn
 {
@@ -23,10 +24,13 @@ namespace CongThucNauAn
     public partial class MainWindow : Window
     {
         private string root = System.AppDomain.CurrentDomain.BaseDirectory;
+        private VMMain VmMain;
         public MainWindow()
         {
             InitializeComponent();
-            this.DataContext = new VMMain();
+            VmMain = new VMMain();
+            this.DataContext = VmMain;
+            VmMain.PropertyChanged += Filter_PropertyChanged;
         }
 
         BindingList<Recipe> _list = new BindingList<Recipe>();
@@ -38,5 +42,19 @@ namespace CongThucNauAn
            
         }
 
+        private void SearchBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var keyword = KeywordInput.Text;
+            VmMain.full_list = RecipeDAO.filter("");
+            
+        }
+
+        private void Filter_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName == "full_list")
+            {
+                VmMain.Search_PropertyChanged();
+            }
+        }
     }
 }

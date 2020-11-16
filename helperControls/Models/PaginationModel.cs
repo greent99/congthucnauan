@@ -15,7 +15,7 @@ namespace helperControls.Models
         public int total_items
         {
             get { return _total_items;  }
-            set { _total_items = value;  }
+            set { _total_items = value; onPropertyChanged(); }
         }
         private int _items_per_page;
         public int items_per_page
@@ -29,7 +29,7 @@ namespace helperControls.Models
             get { return _current_page; }
             set 
             {
-                if(value < total_pages + 1 && value > 0)
+                if(value < total_pages + 1 && value >= 0)
                 {
                     _current_page = value; 
                     onPropertyChanged();

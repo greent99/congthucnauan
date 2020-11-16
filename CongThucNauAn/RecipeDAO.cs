@@ -15,11 +15,21 @@ namespace CongThucNauAn
         {
             List<Recipe> result = null;
 
-            using (StreamReader r = new StreamReader("D:/HocTap/Nam 4/Lap trinh Windows/Project/1/congthucnauan/CongThucNauAn/File/recipe.json"))
+            using (StreamReader r = new StreamReader("C:/WPF/congthucnauan/CongThucNauAn/File/recipe.json"))
             {
                 string json = r.ReadToEnd();
                 result = JsonConvert.DeserializeObject<List<Recipe>>(json);
             }
+
+            return result;
+        }
+
+        public static List<Recipe> filter(string keyword)
+        {
+            List<Recipe> result = new List<Recipe>();
+
+            List<Recipe> recipes = getDataFromJson("");
+            result = recipes.Where(x => x.image.Equals("")).ToList();
 
             return result;
         }

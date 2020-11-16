@@ -75,3 +75,35 @@ D:\HocTap\Nam 4\Lap trinh Windows\Project\1\congthucnauan\CongThucNauAn\obj\Debu
 D:\HocTap\Nam 4\Lap trinh Windows\Project\1\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.CopyComplete
 D:\HocTap\Nam 4\Lap trinh Windows\Project\1\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.exe
 D:\HocTap\Nam 4\Lap trinh Windows\Project\1\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.pdb
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\CongThucNauAn.exe.config
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\CongThucNauAn.exe
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\CongThucNauAn.pdb
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\Haley.MVVM.dll
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\helperControls.dll
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\Newtonsoft.Json.dll
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\System.ValueTuple.dll
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\System.Windows.Interactivity.dll
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\helperControls.pdb
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\Newtonsoft.Json.xml
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\System.ValueTuple.xml
+C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\System.Windows.Interactivity.xml
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csprojAssemblyReference.cache
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\MainWindow.g.cs
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\App.g.cs
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn_MarkupCompile.cache
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn_MarkupCompile.lref
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\App.baml
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\MainWindow.baml
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.g.resources
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.Properties.Resources.resources
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.GenerateResource.cache
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.CoreCompileInputs.cache
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csproj.CopyComplete
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.exe
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.pdb

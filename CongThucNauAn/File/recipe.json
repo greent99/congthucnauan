@@ -5,7 +5,7 @@
 		"youtubeUrl": "google.com",
 		"image": "Images/Recipe/ga-ran.jpg",
 		"steps": [],
-		"isFavotite": "false"
+		"isFavotite": "true"
 	},
 	{
 		"title": "Gà chiên nước mắm",
@@ -13,7 +13,7 @@
 		"youtubeUrl": "google.com",
 		"image": "Images/Recipe/ga-kfc.jpg",
 		"steps": [],
-		"isFavotite": "false"
+		"isFavotite": "true"
 	},
 	{
 		"title": "Cà pháo",
@@ -45,7 +45,7 @@
 		"youtubeUrl": "google.com",
 		"image": "Images/Recipe/ga-hap.jpg",
 		"steps": [],
-		"isFavotite": "false"
+		"isFavotite": "true"
 	},
 	{
 		"title": "Hủ tiếu bò kho",
@@ -61,7 +61,7 @@
 		"youtubeUrl": "google.com",
 		"image": "Images/Recipe/mam-chung-thit.jpg",
 		"steps": [],
-		"isFavotite": "false"
+		"isFavotite": "true"
 	},
 	{
 		"title": "Phở tôm",
@@ -77,7 +77,7 @@
 		"youtubeUrl": "google.com",
 		"image": "Images/Recipe/thit-kho-trung.jpg",
 		"steps": [],
-		"isFavotite": "false"
+		"isFavotite": "true"
 	},
 	{
 		"title": "Lẩu kim chi",

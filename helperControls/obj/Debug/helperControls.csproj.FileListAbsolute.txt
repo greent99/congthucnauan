@@ -54,3 +54,31 @@ D:\HocTap\Nam 4\Lap trinh Windows\Project\1\congthucnauan\helperControls\obj\Deb
 D:\HocTap\Nam 4\Lap trinh Windows\Project\1\congthucnauan\helperControls\obj\Debug\helperControls.csproj.CopyComplete
 D:\HocTap\Nam 4\Lap trinh Windows\Project\1\congthucnauan\helperControls\obj\Debug\helperControls.dll
 D:\HocTap\Nam 4\Lap trinh Windows\Project\1\congthucnauan\helperControls\obj\Debug\helperControls.pdb
+C:\WPF\congthucnauan\helperControls\bin\Debug\helperControls.dll
+C:\WPF\congthucnauan\helperControls\bin\Debug\helperControls.pdb
+C:\WPF\congthucnauan\helperControls\bin\Debug\Haley.MVVM.dll
+C:\WPF\congthucnauan\helperControls\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\WPF\congthucnauan\helperControls\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\WPF\congthucnauan\helperControls\bin\Debug\Newtonsoft.Json.dll
+C:\WPF\congthucnauan\helperControls\bin\Debug\RestSharp.dll
+C:\WPF\congthucnauan\helperControls\bin\Debug\System.ValueTuple.dll
+C:\WPF\congthucnauan\helperControls\bin\Debug\System.Windows.Interactivity.dll
+C:\WPF\congthucnauan\helperControls\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\WPF\congthucnauan\helperControls\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\WPF\congthucnauan\helperControls\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\WPF\congthucnauan\helperControls\bin\Debug\Newtonsoft.Json.xml
+C:\WPF\congthucnauan\helperControls\bin\Debug\RestSharp.xml
+C:\WPF\congthucnauan\helperControls\bin\Debug\System.ValueTuple.xml
+C:\WPF\congthucnauan\helperControls\bin\Debug\System.Windows.Interactivity.xml
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls.csprojAssemblyReference.cache
+C:\WPF\congthucnauan\helperControls\obj\Debug\uc_pagination.g.cs
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls_MarkupCompile.cache
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls_MarkupCompile.lref
+C:\WPF\congthucnauan\helperControls\obj\Debug\uc_pagination.baml
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls.g.resources
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls.Properties.Resources.resources
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls.csproj.GenerateResource.cache
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls.csproj.CoreCompileInputs.cache
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls.csproj.CopyComplete
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls.dll
+C:\WPF\congthucnauan\helperControls\obj\Debug\helperControls.pdb

@@ -90,15 +90,19 @@
             </StackPanel>
         </StackPanel>
         <StackPanel Canvas.Left="250" Canvas.Right="1250" Width="990" Height="700">
-            <StackPanel Margin="0 0 10 0" HorizontalAlignment="Right" Orientation="Horizontal" Height="40">
-                <Button Margin="0 0 10 0" Width="32" Height="32" Background="White" BorderThickness="0">
-                    <Image Source="/Images/Icon/notification-24.png" Width="24" Height="24"></Image>
-                </Button>
-                <Button Width="32" Height="32" Background="White" BorderThickness="0">
-                    <Image Source="/Images/Icon/logout-24.png" Width="24" Height="24"></Image>
-                </Button>
+            <StackPanel Orientation="Horizontal" Height="40">
+                <TextBox Name="KeywordInput" Width="200" Height="30" Margin="10 0 10 0" TextAlignment="Center"></TextBox>
+                <Button Name="SearchBtn" Width="90" Click="SearchBtn_Click">Search</Button>
+                <StackPanel Width="670" FlowDirection="RightToLeft" Margin="0 0 10 0" HorizontalAlignment="Right" Orientation="Horizontal">
+                    <Button Margin="0 0 10 0" Width="32" Height="32" Background="White" BorderThickness="0">
+                        <Image Source="/Images/Icon/notification-24.png" Width="24" Height="24"></Image>
+                    </Button>
+                    <Button Width="32" Height="32" Background="White" BorderThickness="0">
+                        <Image Source="/Images/Icon/logout-24.png" Width="24" Height="24"></Image>
+                    </Button>
+                </StackPanel>
             </StackPanel>
-            <StackPanel Margin="0 10 0 0">
+        <StackPanel Margin="0 10 0 0">
                 <StackPanel Height="180" Margin="0 0 0 10">
                     <StackPanel Orientation="Horizontal">
                         <ListView Name="dataListView_1" Height="180" Width="990" BorderThickness="0"  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
