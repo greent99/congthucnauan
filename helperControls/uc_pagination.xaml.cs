@@ -14,18 +14,35 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using helperControls.Models;
 using helperControls.ViewModel;
+using Haley.Flipper.MVVM.Models;
+using System.ComponentModel;
 
-namespace helperControls
+namespace helperControls 
 {
     /// <summary>
     /// Interaction logic for uc_pagination.xaml
     /// </summary>
-    public partial class uc_pagination : UserControl
+    public partial class uc_pagination : UserControl, INotifyPropertyChanged
     {
+        private VMPagination _pagination;
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void NotifyPropertyChanged(String propertyName = "")
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+
+        public VMPagination pagination
+        {
+            get { return _pagination; }
+            set { _pagination = value;}
+        }
         public uc_pagination()
         {
             InitializeComponent();
-            
         }
     }
 }

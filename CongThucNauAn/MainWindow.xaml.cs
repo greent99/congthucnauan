@@ -15,6 +15,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Diagnostics;
+using helperControls.Models;
+using helperControls.ViewModel;
+using Haley.Flipper.MVVM.Models;
 
 namespace CongThucNauAn
 {
@@ -22,9 +25,11 @@ namespace CongThucNauAn
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
+
     {
         private string root = System.AppDomain.CurrentDomain.BaseDirectory;
         private VMMain VmMain;
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -46,15 +51,14 @@ namespace CongThucNauAn
         {
             var keyword = KeywordInput.Text;
             VmMain.full_list = RecipeDAO.filter(keyword);
-            
         }
 
         private void Filter_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             if (e.PropertyName == "full_list")
-            {
-                VmMain.Search_PropertyChanged();
-            }
+                VmMain.Search_PropertyChanged(sender,e);
         }
+
+        
     }
 }

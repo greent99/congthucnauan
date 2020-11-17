@@ -9,9 +9,9 @@
     <Grid x:Name="grdOverall" VerticalAlignment="Center" DataContext="{Binding}" Margin="0 0 5 0">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
             <TextBlock FontSize="14" TextAlignment="Center" Text="Pages" Width="37"></TextBlock>
-            <TextBlock FontSize="14" TextAlignment="Center" Text="{Binding pagination.current_page, NotifyOnSourceUpdated=True,UpdateSourceTrigger=PropertyChanged}" Width="25"></TextBlock>
+            <TextBlock FontSize="14" TextAlignment="Center" Text="{Binding pagination.current_page, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" Width="25"></TextBlock>
             <TextBlock FontSize="14" TextAlignment="Center" Text="of" Width="20"></TextBlock>
-            <TextBlock FontSize="14" TextAlignment="Center" Text="{Binding pagination.total_pages, NotifyOnSourceUpdated=True,UpdateSourceTrigger=PropertyChanged}" Width="25" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock FontSize="14" TextAlignment="Center" Text="{Binding pagination.total_pages, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" Width="25" HorizontalAlignment="Center"></TextBlock>
             <TextBlock FontSize="14" TextAlignment="Center" Text=" | " Margin="5 0"></TextBlock>
             <TextBlock FontSize="14" Margin="5 0">
                 <Hyperlink Command="{Binding cmd_change_page}" CommandParameter="0">

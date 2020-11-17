@@ -47,7 +47,6 @@ namespace CongThucNauAn.ViewModel
         }
         public void processPage(object param)
         {
-
             try
             {
                 List<Recipe> page_list = new List<Recipe>();
@@ -86,8 +85,6 @@ namespace CongThucNauAn.ViewModel
                         bottom_list = new ObservableCollection<Recipe>();
                         break;
                 }
-
-
             }
             catch (Exception ex)
             {
@@ -108,23 +105,27 @@ namespace CongThucNauAn.ViewModel
 
             pagination.pagination.PropertyChanged += Pagination_PropertyChanged;
 
-
             processPage(null);
         }
 
         private void Pagination_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "current_page" || e.PropertyName == "total_pages")
+            if (e.PropertyName == "current_page")
             {
                 processPage(null);
             }
+            if(e.PropertyName == "total_pages")
+            {
+                
+            }
         }
 
-        public void Search_PropertyChanged()
+        public void Search_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             PaginationModel model = new PaginationModel(full_list.Count(), 12);
             pagination.seed(model);
-            
+            pagination.pagination.PropertyChanged += Pagination_PropertyChanged;
+
             processPage(null);
         }
 
