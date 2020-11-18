@@ -61,37 +61,62 @@ namespace CongThucNauAn
 
         public void Filter_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "full_list")
+            if (e.PropertyName == "full_list" || e.PropertyName == "favorite_list")
                 VmMain.Search_PropertyChanged(sender,e);
         }
 
         void ListViewItem_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
 
-            XmlElement recipe = ((ListViewItem)sender).Content as XmlElement;
-
-            if (recipe == null)
+            var item = (sender as ListViewItem).DataContext;
+            if (item != null)
             {
-                return;
+                
             }
 
-            MessageBox.Show("Oke");
-            
+
         }
 
         void AddToFavorite(object sender, EventArgs e)
         {
             var item = (Button)sender;
+            var stackpanel = (StackPanel)item.Content;
 
-            item.Visibility = Visibility.Hidden;
-
-
+            foreach(var element in stackpanel.Children)
+            {
+                TextBlock textbox = element as TextBlock;
+                if(textbox != null)
+                {
+                    var id = Int32.Parse(textbox.Text);
+                    if (VmMain.full_list[id].isFavotite == false)
+                    {
+                        VmMain.full_list[id].LikeImageSource = "Images/Icon/heart-24-red.png";
+                        VmMain.full_list[id].isFavotite = true;
+                    }
+                    else
+                    {
+                        VmMain.full_list[id].LikeImageSource = "Images/Icon/heart-24.png";
+                        VmMain.full_list[id].isFavotite = false;
+                    }
+                }
+                RecipeDAO.updateAllData(VmMain.full_list);
+                break;
+            }
         }
 
         private void AddRecipe_Click(object sender, RoutedEventArgs e)
         {
             AddRecipe addScreen = new AddRecipe();
             addScreen.Show();
+        }
+
+        private void FavoriteBtn_Click(object sender, RoutedEventArgs e)
+        {
+            VmMain.full_list = RecipeDAO.getFavoriteList();
+        }
+        private void HomeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            VmMain.full_list = RecipeDAO.getDataFromJson("");
         }
     }
 }
