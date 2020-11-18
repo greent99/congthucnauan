@@ -47,18 +47,51 @@ namespace CongThucNauAn
             List<Recipe> result = new List<Recipe>();
 
             List<Recipe> recipes = getDataFromJson("");
+            t.id = findMaxId() + 1;
             recipes.Add(t);
             string json = JsonConvert.SerializeObject(recipes.ToArray());
             System.IO.File.WriteAllText(@"C:/WPF/congthucnauan/CongThucNauAn/File/recipe.json", json);
             
             return recipes;
         }
+        public static Recipe FindById(int id)
+        {
+            Recipe result = null;
+
+            List<Recipe> recipes = getDataFromJson("");
+            foreach(Recipe recipe in recipes)
+            {
+                if(recipe.id == id)
+                {
+                    result = recipe;
+                    break;
+                }
+            }
+
+            return result;
+        }
+
+        public static void updateAllData(List<Recipe> list)
+        {
+            string json = JsonConvert.SerializeObject(list.ToArray());
+            System.IO.File.WriteAllText(@"C:/WPF/congthucnauan/CongThucNauAn/File/recipe.json", json);
+        }
+        public static int findMaxId()
+        {
+            List<Recipe> recipes = getDataFromJson("");
+            return recipes.Count() -1;
+        }
 
         public static BindingList<Recipe> GetAll(List<Recipe> arr)
         {
-
             var result = new BindingList<Recipe>(arr); 
             return result;
+        }
+
+        public static List<Recipe> getFavoriteList()
+        {
+            List<Recipe> recipes = getDataFromJson("");
+            return recipes.Where(item => item.isFavotite == true).ToList();
         }
 
         public static string ConvertUTF8ToASC(String input)

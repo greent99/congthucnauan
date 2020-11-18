@@ -12,7 +12,6 @@ namespace CongThucNauAn.ViewModel
 {
     class VMMain : ChangeNotifierModel
     {
-       
         private VMPagination _pagination;
         public VMPagination pagination
         {
@@ -46,6 +45,12 @@ namespace CongThucNauAn.ViewModel
         {
             get { return _full_list; }
             set { _full_list = value; onPropertyChanged(); }
+        }
+        private List<Recipe> _favorite_list;
+        public List<Recipe> favorite_list
+        {
+            get { return _favorite_list; }
+            set { _favorite_list = value; onPropertyChanged(); }
         }
         public void processPage(object param)
         {
@@ -97,6 +102,7 @@ namespace CongThucNauAn.ViewModel
         private void _initiation()
         {
             full_list = RecipeDAO.getDataFromJson("");
+            favorite_list = RecipeDAO.getFavoriteList();
             top_list = new ObservableCollection<Recipe>();
             center_list = new ObservableCollection<Recipe>();
             bottom_list = new ObservableCollection<Recipe>();
@@ -107,7 +113,7 @@ namespace CongThucNauAn.ViewModel
 
             pagination.pagination.PropertyChanged += Pagination_PropertyChanged;
 
-            
+           
 
             processPage(null);
         }
@@ -129,6 +135,7 @@ namespace CongThucNauAn.ViewModel
             PaginationModel model = new PaginationModel(full_list.Count(), 12);
             pagination.seed(model);
             pagination.pagination.PropertyChanged += Pagination_PropertyChanged;
+            pagination.pagination = model;
 
             processPage(null);
         }

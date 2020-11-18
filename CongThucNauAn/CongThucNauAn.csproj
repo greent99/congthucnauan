@@ -186,5 +186,8 @@
   <ItemGroup>
     <Resource Include="Images\Icon\reload-24.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Icon\heart-24.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
