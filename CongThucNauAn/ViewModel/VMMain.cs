@@ -5,12 +5,14 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace CongThucNauAn.ViewModel
 {
     class VMMain : ChangeNotifierModel
     {
+       
         private VMPagination _pagination;
         public VMPagination pagination
         {
@@ -104,6 +106,8 @@ namespace CongThucNauAn.ViewModel
             pagination.seed(model);
 
             pagination.pagination.PropertyChanged += Pagination_PropertyChanged;
+
+            
 
             processPage(null);
         }

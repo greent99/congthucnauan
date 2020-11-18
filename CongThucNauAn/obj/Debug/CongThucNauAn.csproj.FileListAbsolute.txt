@@ -93,12 +93,14 @@ C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\Newtonsoft.Json.xml
 C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\System.ValueTuple.xml
 C:\WPF\congthucnauan\CongThucNauAn\bin\Debug\System.Windows.Interactivity.xml
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.csprojAssemblyReference.cache
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\AddRecipe.g.cs
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\MainWindow.g.cs
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\App.g.cs
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn_MarkupCompile.cache
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn_MarkupCompile.lref
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\App.baml
+C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\AddRecipe.baml
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\MainWindow.baml
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.g.resources
 C:\WPF\congthucnauan\CongThucNauAn\obj\Debug\CongThucNauAn.Properties.Resources.resources
