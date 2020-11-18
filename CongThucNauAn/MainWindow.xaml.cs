@@ -18,6 +18,7 @@ using System.Diagnostics;
 using helperControls.Models;
 using helperControls.ViewModel;
 using Haley.Flipper.MVVM.Models;
+using System.Xml;
 
 namespace CongThucNauAn
 {
@@ -28,8 +29,8 @@ namespace CongThucNauAn
 
     {
         private string root = System.AppDomain.CurrentDomain.BaseDirectory;
-        private VMMain VmMain;
-        
+        private  VMMain VmMain;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -53,12 +54,44 @@ namespace CongThucNauAn
             VmMain.full_list = RecipeDAO.filter(keyword);
         }
 
-        private void Filter_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        private void ReloadBtn_Click(object sender, RoutedEventArgs e)
+        {
+            VmMain.full_list = RecipeDAO.getDataFromJson("");
+        }
+
+        public void Filter_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             if (e.PropertyName == "full_list")
                 VmMain.Search_PropertyChanged(sender,e);
         }
 
-        
+        void ListViewItem_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+
+            XmlElement recipe = ((ListViewItem)sender).Content as XmlElement;
+
+            if (recipe == null)
+            {
+                return;
+            }
+
+            MessageBox.Show("Oke");
+            
+        }
+
+        void AddToFavorite(object sender, EventArgs e)
+        {
+            var item = (Button)sender;
+
+            item.Visibility = Visibility.Hidden;
+
+
+        }
+
+        private void AddRecipe_Click(object sender, RoutedEventArgs e)
+        {
+            AddRecipe addScreen = new AddRecipe();
+            addScreen.Show();
+        }
     }
 }

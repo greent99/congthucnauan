@@ -73,10 +73,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddRecipe.xaml.cs">
+      <DependentUpon>AddRecipe.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Converter.cs" />
     <Compile Include="Recipe.cs" />
     <Compile Include="RecipeDAO.cs" />
     <Compile Include="ViewModel\VMMain.cs" />
+    <Page Include="AddRecipe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -166,6 +173,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Recipe\trung-sot-ca-chua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Icon\heart-24-red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Icon\cancel-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Icon\save-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Icon\reload-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

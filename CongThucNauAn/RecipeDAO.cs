@@ -42,6 +42,18 @@ namespace CongThucNauAn
             return result;
         }
 
+        public static List<Recipe> AddRecipe(Recipe t)
+        {
+            List<Recipe> result = new List<Recipe>();
+
+            List<Recipe> recipes = getDataFromJson("");
+            recipes.Add(t);
+            string json = JsonConvert.SerializeObject(recipes.ToArray());
+            System.IO.File.WriteAllText(@"C:/WPF/congthucnauan/CongThucNauAn/File/recipe.json", json);
+            
+            return recipes;
+        }
+
         public static BindingList<Recipe> GetAll(List<Recipe> arr)
         {
 
